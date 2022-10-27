@@ -1,0 +1,16 @@
+action: py39, msg: installpkg
+cwd: /home/jenkins/python-webcount
+cmd: /home/jenkins/python-webcount/.tox/py39/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/webcount-0.1.zip
+Processing ./.tox/.tmp/package/1/webcount-0.1.zip
+Building wheels for collected packages: webcount
+  Building wheel for webcount (setup.py): started
+  Building wheel for webcount (setup.py): finished with status 'done'
+  Created wheel for webcount: filename=webcount-0.1-py3-none-any.whl size=2627 sha256=9301d1a3a1cc46d86f1f8b56b5aa64bb35a8fb59231e0fb09f6468de242e71cf
+  Stored in directory: /home/jenkins/.cache/pip/wheels/d6/a3/90/cfbfa8374412207b13f2df358929017498126d74affd12d7fd
+Successfully built webcount
+Installing collected packages: webcount
+  Attempting uninstall: webcount
+    Found existing installation: webcount 0.1
+    Not uninstalling webcount at /home/jenkins/python-webcount, outside environment /home/jenkins/python-webcount/.tox/py39
+    Can't uninstall 'webcount'. No files were found to uninstall.
+Successfully installed webcount-0.1

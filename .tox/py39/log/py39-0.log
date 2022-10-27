@@ -1,0 +1,7 @@
+action: py39, msg: getenv
+cwd: /home/jenkins/python-webcount/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3.9 py39
+created virtual environment CPython3.9.5.final.0-64 in 257ms
+  creator CPython3Posix(dest=/home/jenkins/python-webcount/.tox/py39, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/jenkins/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
